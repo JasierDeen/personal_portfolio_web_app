@@ -6,6 +6,18 @@
     color: rgba(0,0,0,.5) !important;
 }
 
+#profile-photo {
+    width: 350px; /* Increase the width */
+    height: 350px; /* Ensure height matches */
+    object-fit: cover; /* Keep the image aspect ratio */
+    border-radius: 50%; /* Keep the rounded look */
+}
+
+#hometext {
+    font-size: 14px; /* Adjust the text size if needed */
+    line-height: 1.6; /* Make the text more readable */
+}
+
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -16,7 +28,7 @@ body {
 
 @media (min-width: 992px) {
     #hometext {
-        font-size: 4rem;
+        font-size: 1.5rem;
     }
     #blogdetailtitle {
         font-size: 5rem;
